@@ -52,7 +52,8 @@ html {
     font-size: 5rem;
    display: flex;
    justify-content: center;
-   background-color: #b0b5af6e;
+   background: rgb(180,178,178);
+background: linear-gradient(80deg, rgba(180,178,178,1) 7%, rgba(68,68,68,0.9532855378479517) 52%, rgba(178,183,177,1) 88%);
 
 }
 
@@ -66,7 +67,8 @@ html {
     display: flex;
     justify-content: center;
     font-size: 5rem;
-    background-color: #b0b5af6e;
+    background: rgb(180,178,178);
+    background: linear-gradient(80deg, rgba(180,178,178,1) 7%, rgba(68,68,68,0.9532855378479517) 52%, rgba(178,183,177,1) 88%);
 
 }
 
@@ -91,6 +93,7 @@ html {
     font-size: 1rem;
     text-align:center;
     contain: size;
+
 
 }
 
@@ -126,6 +129,7 @@ html {
     justify-content:start ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+   
 }
 
 .grilla__verano {
