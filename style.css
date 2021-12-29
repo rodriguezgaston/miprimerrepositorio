@@ -12,6 +12,7 @@
     font-size: 1.85rem;
     display: flex;
     justify-content:space-evenly;
+    text-transform: capitalize;
     
 }
 
