@@ -1,48 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
-    <title>Document</title>
+    <title>invierno</title>
 </head>
-<body>
+<body class="contenedor">
     <header class="header" >
         <nav class="header__contactos">
             <a href="http://www.twitter.com"><span>twitter</span></a>
             <a href="http:www.facebook.com.ar"><span>facebook</span></a>
             <a href="http:www.instagram.com"><span>instagram</span></a>
         </nav>
-       <img class="header__logo" src="../assets/ushuaia.jfif" alt="">
-        <nav class="header__navegable">
-            <ul class="header__list">
-                <li class="header__item "><a href="../index.html">inicio</a></li>
-                <li class="header__item"><a href="./verano.html">verano </a></li>
-                <li class="header__item"><a href="./invierno.html">invierno</a></li>
-                <li class="header__item"><a href="./antartida.html">antartida</a></li>
-                <li class="header__item"><a href="./experiencias.html"><span>experiencias</span></a></li>
-            </ul>
-        </nav>
+        <ul class="nav justify-content-center display-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./verano.html">Verano</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./invierno.html">invierno</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./experiencias.html">experiencias</a>
+              </li>
+          </ul>
         <main>
+            <div id="carouselExampleControls" class="carousel slide carrusel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/ushuaia_invierno.jpg" class="d-block w-100 carrusel" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/ushuaia_invierno2.jpg" class="d-block w-100 carrusel" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/ushuaia_invierno3.jpg" class="d-block w-100 carrusel" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
           <div class="invierno__section">  
-            <img class="foto__turismo" src="../assets/ushuaia_nieve.jpg" alt="ushuia nevada">
             <h2 class="titular">Vivi Ushuaia en invierno</h2>
-            <p class="texto__ushuaia">Ushuaia en invierno se cubre de un manto de nieve convirtiéndose en un lugar soñado. La ciudad tiene un clima frío y posee una temperatura media en invierno de 1°C. Su nieve es mundialmente reconocida como la mejor de la Argentina. Esto se debe a la latitud y la influencia marítima en la que se encuentra la ciudad. A todos los que quieren vivir una experiencia memorable haciendo Turismo en Ushuaia, en Tierra Turismo les recomendamos nuestras excursiones de invierno. 4X4 en Land Rover Defenders por sendas de hielo y nieve, caminatas con raquetas, paseos en trineos tirados por perros y raids en “snowcats”, motos de nieve, entre muchas otras actividades.
-                A esta amplia gama de deportes y entretenimientos invernales se suma una tentadora oferta gastronómica. Y las travesías mágicas en el Tren del Fin del Mundo al corazón del Parque Nacional Tierra del Fuego, no se queda atrás. También podrás navegar por el mítico Canal Beagle para ver colonias de lobos marino y aves.</p>
+            <p class="texto__ushuaia container">Ushuaia en invierno se cubre de un manto de nieve convirtiéndose en un lugar soñado. La ciudad tiene un clima frío y posee una temperatura media en invierno de 1°C. Su nieve es mundialmente reconocida como la mejor de la Argentina. Esto se debe a la latitud y la influencia marítima en la que se encuentra la ciudad.</p>
           </div>      
-         <section class="grilla__verano">
-            <figure >
-                <img class="grilla__item" src="../assets/ushuaia_nieve.jpg" alt="cerro castor">
-                <figcaption><a class="excursion__grilla" href="./cerro_castor.html">cerro castor</a></figcaption>
-            </figure>
-            <figure ><img  class="grilla__item"src="../assets/ushuaia_nieve.jpg" alt="esmeralda en iniverno">
-                <figcaption><a class="excursion__grilla" href="./esmeralda_inverno.html">esmeralda en invierno</a></figcaption>
-            </figure>
-            <figure><img class="grilla__item"   src="../assets/ushuaia_nieve.jpg" alt="parque nacional bajo cero">
-                <figcaption><a class="excursion__grilla" href="./parque_nacional_iniverno.html">parque nacional bajo cero</a> </figcaption> 
-            </figure>
-         </section>       
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/cerro_castor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cerro Castor</h5>
+                      <p class="card-text">La montaña posee medios de elevación para todos los niveles de esquí, alojamiento en la base, 7 puntos gastronómicos que permiten apreciar el paisaje fueguino desde diferentes lugares.</p>
+                      <a href="../pages/cerro_castor.html" class="btn btn-primary">Ir a excursion</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/esmeralda_invierno.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Esmeralda en invierno</h5>
+                      <p class="card-text">Una caminata hacia un lugar único y maravilloso de Tierra del Fuego, una laguna rodeada de montañas, donde todo el paisaje que recorremos, se cubre del blanco manto del invierno.</p>
+                      <a href="../pages/esmeralda_inverno.html" class="btn btn-primary">Ir a excursion</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/parque_invierno.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Parque nacional en inverno</h5>
+                      <p class="card-text">Explorá los increíbles paisajes naturales del Parque Nacional Tierra del Fuego bajo un manto de nieve en invierno.</p>
+                      <a href="../pages/parque_nacional_iniverno.html" class="btn btn-primary">Ir a excursion</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
         </main>
     <footer>
         <nav class="header__contactos">
@@ -51,5 +96,6 @@
             <a href="www.instagram.com">instagram</a>
         </nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
