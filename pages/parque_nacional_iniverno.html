@@ -14,20 +14,30 @@
             <a href="http:www.facebook.com.ar"><span>facebook</span></a>
             <a href="http:www.instagram.com"><span>instagram</span></a>
         </nav>
-        <ul class="nav justify-content-center display-4">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./verano.html">Verano</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./invierno.html">invierno</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./experiencias.html">experiencias</a>
-              </li>
-          </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand display-1" href="#">Sperr Turismo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end display-6" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./verano.html">Verano</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./invierno.html">Invierno</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./experiencias.html">Experiencias</a>
+                </li> 
+              </ul>
+            </div>
+          </div>
+        </nav>
           <section class="container" >
             <img class="paisaje" src="../assets/parque_invierno.jpg" alt="glaciar">
         </section>    
@@ -37,7 +47,7 @@
 
                 A diferencia de otros parques nacionales del país, posee la particularidad de integrar paisajes de costa marítima, bosque, lagos, ríos y montaña. En su extensión encontramos una síntesis de la riqueza biológica de la Isla de Tierra del Fuego y de sus hermosos paisajes. Volveremos a la ciudad  de Ushuaia con el tiempo suficiente como para combinar el día con una navegación por el Canal de Beagle por la tarde.</p>
         </section>
-        <div class="grilla__fotos container">
+        <div class="grilla__fotos container-fluid">
             <div class="row align-items-start">
               <div class="col">
                 <img class="fotos" src="../assets/parque_invierno1.jpg" alt="">
@@ -67,5 +77,6 @@
                     <a href="www.instagram.com">instagram</a>
                 </nav>
             </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
