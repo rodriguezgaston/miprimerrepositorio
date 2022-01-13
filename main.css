@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contenedor {
+  background-color: #b0b5af6e;
+}
+
+.header__contactos {
+  font-size: 1.85rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-transform: capitalize;
+}
+
+.header__carrusel {
+  height: 30rem;
+}
+
+.header__titular {
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #b4b2b2;
+  background: linear-gradient(80deg, #b4b2b2 7%, rgba(68, 68, 68, 0.953286) 52%, #b2b7b1 88%);
+}
+
+.guia_turistico {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #b0b5af6e;
+}
+.guia_turistico .imagen__marcos {
+  width: 15rem;
+  background-color: #b0b5af6e;
+}
+.guia_turistico .texto__ushuaia {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  line-height: 3rem;
+}
+/*# sourceMappingURL=main.css.map */
