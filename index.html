@@ -7,7 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
     <title>tursimo</title>
   </head>
 </html>
@@ -27,16 +30,16 @@
             <div class="collapse navbar-collapse justify-content-end display-6" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./pages/verano.html">Verano</a>
+                  <a class="nav-link active" aria-current="page" href="/verano/verano.html">Verano</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./pages/invierno.html">Invierno</a>
+                  <a class="nav-link active" aria-current="page" href="/invierno/invierno.html">Invierno</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./pages/experiencias.html">Experiencias</a>
+                  <a class="nav-link active" aria-current="page" href="/experiencias/experiencias.html">Experiencias</a>
                 </li> 
               </ul>
             </div>
@@ -44,17 +47,17 @@
         </nav>
     </header>
     <main>
-        <h1 class="display-1 text-center header__titular">Descubri Ushuaia</h1>
-        <div id="carouselExampleControls" class="carousel slide container-fluid header__carrusel" data-bs-ride="carousel">
+        <h1 class="text-center titular">Descubri Ushuaia</h1>
+        <div id="carouselExampleControls" class="carousel slide container-fluid carrusel" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./assets/faro.png" class="d-block w-100 header__carrusel" alt="...">
+                <img src="./assets/ushuaia_principal.jpg" class="d-block w-100 carrusel" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./assets/garibaldi.jpg" class="d-block w-100 header__carrusel" alt="...">
+                <img src="./assets/garibaldi.jpg" class="d-block w-100 carrusel" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./assets/parque_nacional.jpg" class="d-block w-100 header__carrusel" alt="...">
+                <img src="./assets/parque_nacional.jpg" class="d-block w-100 carrusel" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -66,11 +69,17 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        <section class="guia__turistico container">   <!--video o fotos del guia mas su experiencia y descripcion-->
+        <section>
+          <h2 class="titular">Bienvenido al Fin Del Mundo</h2>
+          <p class="texto__ushuaia container-fluid">Emplazada entre el último tramo de la cordillera de los Andes y el Canal Beagle, Ushuaia es la ciudad más austral del mundo, capital de la provincia de Tierra del Fuego. Su nombre proviene de la lengua Yámana y significa “bahía que mira hacia el poniente”. La fundación de la ciudad se reconoce a partir de la creación de la Subprefectura Naval de Ushuaia el 12 de Octubre de 1884.
+            Desde sus inicios como puesto militar y carcelario, Ushuaia se desarrolló a través de las décadas hasta convertirse en un destino turístico de nivel internacional. Su particular geografía, en la que predominan las montañas, valles y lagos, ofrece al visitante paisajes inolvidables y una gran variedad de actividades durante todo el año.
+            Por su latitud (54° Sur) Ushuaia posee la particularidad de contar con la noche más larga en invierno y el día con más horas de luz en verano. De las cinco ciudades en el mundo reconocidas como “puertas de entrada” a la Antártida, Ushuaia es el puerto más cercano, a sólo 1000 kilómetros de distancia de la Península Antártica.</p>
+        </section>  
+        <section class="guia_turistico container-fluid">   <!--video o fotos del guia mas su experiencia y descripcion-->
             <img class="imagen__marcos" src="./assets/marcos.jpg" alt="sobre mi">
-            <p class="texto__ushuaia container ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum mollitia quas beatae vitae eos dolorem minus tempore fugiat ex natus porro fugit provident quia laudantium accusantium fuga, iste sapiente vel.</p>
-        </section>
-            <h2 class="display-1 text-center excursiones__destacadas">Excuriones destacadas</h2>
+            <p class="mi_historia container-fluid ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum mollitia quas beatae vitae eos dolorem minus tempore fugiat ex natus porro fugit provident quia laudantium accusantium fuga, iste sapiente vel.</p>
+        </section>+
+            <h2 class="text-center excursiones__destacadas">Excursiones destacadas</h2>
         <section class="excursiones">
             <div class="container">
                 <div class="row ">
