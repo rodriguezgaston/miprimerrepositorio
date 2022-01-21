@@ -1,0 +1,15 @@
+.guia {
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &__foto {
+        width: 15rem;
+    }
+    &__historia {
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        line-height: 3rem;
+       font-size: 1.2rem;
+    }
+}

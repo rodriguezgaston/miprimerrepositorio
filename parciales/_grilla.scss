@@ -1,0 +1,15 @@
+.grilla {
+    
+    &__fotos {
+        display: grid;
+        grid-template-rows:1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+
+    }
+    
+}
+.fotos {
+    width: 300px;
+    height: 300px;
+    }

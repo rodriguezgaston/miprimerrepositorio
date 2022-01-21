@@ -1,0 +1,14 @@
+.carrusel {
+   
+
+    &__titular {
+        font-size: 5rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+    &__fotos {
+        height: 30rem;
+        width: 100%;
+    }
+}
