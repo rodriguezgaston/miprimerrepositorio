@@ -1,0 +1,20 @@
+.tour {
+    &__paisaje {
+        height: 30rem;
+        width: 100%;
+    }
+    
+    &__titular {
+        font-size: 5rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+    &__texto {
+        display: flex;
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                line-height: 3rem;
+               font-size: 1.2rem;
+    }
+}

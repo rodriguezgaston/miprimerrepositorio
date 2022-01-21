@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__contactos {
+  font-size: 1.85rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-transform: capitalize;
+}
+
+.carrusel__titular {
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carrusel__fotos {
+  height: 30rem;
+  width: 100%;
+}
+
+.descripcion__titular {
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.descripcion__texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+
+.guia {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.guia__foto {
+  width: 15rem;
+}
+
+.guia__historia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+
+.excursiones__titular {
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.verano__titular {
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.verano__texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+
+.invierno__titular {
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.invierno__texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+
+.tour__paisaje {
+  height: 30rem;
+  width: 100%;
+}
+
+.tour__titular {
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tour__texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+
+.grilla__fotos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.fotos {
+  width: 300px;
+  height: 300px;
+}
+
+@media screen and (min-width: 320px) {
+  .header__contactos {
+    font-size: 1rem;
+  }
+  .carrusel__titular {
+    font-size: 3rem;
+  }
+  .descripcion__titular {
+    font-size: 2.9rem;
+  }
+  .guia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .guia__historia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .guia__foto {
+    width: 100%;
+  }
+  .excursiones__titular {
+    font-size: 1.8rem;
+  }
+  .excursiones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .descripcion__breve {
+    contain: content;
+  }
+  .grilla {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-grid-columns: none;
+        grid-template-columns: none;
+    -ms-grid-rows: none;
+        grid-template-rows: none;
+  }
+  .grilla__fotos {
+    -ms-grid-rows: none;
+        grid-template-rows: none;
+  }
+  .verano__titular {
+    font-size: 3rem;
+  }
+  .verano__texto {
+    font-size: 1rem;
+  }
+  .invierno__titular {
+    font-size: 3rem;
+  }
+  .invierno__texto {
+    font-size: 1rem;
+  }
+  .tour__titular {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carrusel__titular {
+    font-size: 5rem;
+  }
+  .descripcion__titular {
+    font-size: 3.3rem;
+  }
+  .guia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .guia__historia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .guia__foto {
+    width: 100%;
+  }
+  .excursiones__titular {
+    font-size: 4rem;
+  }
+  .verano__titular {
+    font-size: 4.5rem;
+  }
+  .verano__texto {
+    font-size: 1.5rem;
+  }
+  .invierno__titular {
+    font-size: 4.5rem;
+  }
+  .invierno__texto {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__contactos {
+    font-size: 1.85rem;
+  }
+  .carrusel__titular {
+    font-size: 5rem;
+  }
+  .guia {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .excursiones__titular {
+    font-size: 5rem;
+  }
+  .excursiones {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+/*# sourceMappingURL=main.css.map */

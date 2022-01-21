@@ -1,0 +1,138 @@
+@media screen and (min-width: 320px) {
+    
+    .header__contactos {
+        font-size: 1rem;
+    }
+    
+    .carrusel__titular {
+        font-size: 3rem;
+    }
+
+    .descripcion__titular {
+        font-size: 2.9rem;
+    }
+
+    .guia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guia__historia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guia__foto{
+        width: 100%;
+    }
+
+    .excursiones__titular {
+        font-size: 1.8rem;
+    }
+    .excursiones {
+        display: flex;
+        flex-direction: column;
+    }
+    .descripcion__breve {
+        contain: content;
+    }
+    .grilla {
+        display:flex;
+        grid-template-columns:none;
+        grid-template-rows: none;
+    }
+    .grilla__fotos{
+      grid-template-rows: none;
+    }
+
+    .verano__titular {
+        font-size: 3rem;
+    }
+
+    .verano__texto {
+        font-size: 1rem;
+    }
+
+    .invierno__titular {
+        font-size: 3rem;
+    }
+    .invierno__texto {
+        font-size: 1rem;
+    }
+     
+    .tour__titular {
+        font-size: 3rem;
+    }
+
+}
+
+@media  screen and (min-width: 768px) {
+   
+    .carrusel__titular {
+        font-size: 5rem;
+    }
+
+    .descripcion__titular {
+        font-size:3.3rem;
+    }
+
+
+    .guia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guia__historia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guia__foto{
+        width: 100%;
+    }
+    
+    .excursiones__titular {
+        font-size: 4rem;
+    }
+
+    .verano__titular {
+        font-size: 4.5rem;
+    }
+
+    .verano__texto {
+        font-size: 1.5rem;
+    }
+
+    .invierno__titular {
+        font-size: 4.5rem;
+    }
+
+    .invierno__texto {
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .header__contactos {
+        font-size: 1.85rem;
+    }
+   
+   .carrusel__titular {
+    font-size: 5rem;
+   }
+   .guia{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+   }
+
+   .excursiones__titular{
+       font-size: 5rem;
+   }
+   .excursiones {
+    display: grid;
+   
+   }
+   
+}
