@@ -111,6 +111,16 @@
         font-size: 1.5rem;
     }
 
+    .grilla {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grilla__fotos {
+        display: flex;
+
+    }
+
     
 }
 

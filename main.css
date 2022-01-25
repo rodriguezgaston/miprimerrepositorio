@@ -280,6 +280,17 @@
   .invierno__texto {
     font-size: 1.5rem;
   }
+  .grilla {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .grilla__fotos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1024px) {
