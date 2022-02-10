@@ -40,9 +40,12 @@
         display:flex;
         grid-template-columns:none;
         grid-template-rows: none;
+        flex-direction: column;
+
     }
     .grilla__fotos{
       grid-template-rows: none;
+      justify-content: center;
     }
 
     .verano__titular {
@@ -114,10 +117,14 @@
     .grilla {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding-left: 3rem;
     }
 
     .grilla__fotos {
-        display: flex;
+        display: contents;
+        flex-direction: column;
+        justify-content: center;
+
 
     }
 
@@ -145,4 +152,15 @@
    
    }
    
+   .grilla {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+   }
+
+   .grilla__fotos {
+       display: contents;
+   }
+    
+    
 }
+
